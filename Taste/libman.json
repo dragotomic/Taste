@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jqueryui@1.12.1",
+      "destination": "wwwroot/lib/jqueryui/",
+      "files": [
+        "jquery-ui.min.js",
+        "jquery-ui.js",
+        "jquery-ui.css",
+        "jquery-ui.min.css"
+      ]
+    },
+    {
+      "library": "datatables@1.10.21",
+      "destination": "wwwroot/lib/datatables/",
+      "files": [
+        "js/jquery.dataTables.min.js",
+        "js/jquery.dataTables.js",
+        "css/jquery.dataTables.css",
+        "css/jquery.dataTables.min.css",
+        "images/sort_asc.png",
+        "images/sort_asc_disabled.png",
+        "images/sort_both.png",
+        "images/sort_desc.png",
+        "images/sort_desc_disabled.png"
+      ]
+    },
+    {
+      "library": "font-awesome@5.14.0",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "css/all.min.css",
+        "css/all.css",
+        "js/all.js",
+        "js/all.min.js"
+      ]
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/",
+      "files": [
+        "toastr.min.js",
+        "toastr.min.css"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/lib/sweetalert/",
+      "files": [
+        "dist/sweetalert.min.js"
+      ]
+    },
+    {
+      "library": "tinymce@4.5.12",
+      "destination": "wwwroot/lib/tinymce/",
+      "files": [
+        "tinymce.min.js"
+      ]
+    },
+    {
+      "library": "jquery-timepicker@1.10.0",
+      "destination": "wwwroot/lib/jquery-timepicker/",
+      "files": [
+        "jquery.timepicker.min.css",
+        "jquery.timepicker.css",
+        "jquery.timepicker.js",
+        "jquery.timepicker.min.js"
+      ]
+    },
+    {
+      "library": "jquery.serializeJSON@2.9.0",
+      "destination": "wwwroot/lib/jquery.serializeJSON/"
+    },
+    {
+      "library": "cleave.js@1.6.0",
+      "destination": "wwwroot/lib/cleave.js/",
+      "files": [
+        "cleave.min.js",
+        "cleave.js",
+        "addons/cleave-phone.ba.js",
+        "addons/cleave-phone.us.js"
+      ]
+    }
+  ]
+}
